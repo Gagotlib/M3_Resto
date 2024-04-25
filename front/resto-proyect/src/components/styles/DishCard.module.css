@@ -1,0 +1,23 @@
+.dishCard{
+  background-color: black !important;
+  color: lightgray;
+  font-style: oblique;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  align-items: center;
+
+  h3 {
+    margin: 1rem;
+    margin-bottom: 0;
+  }
+  
+  img {
+    margin: 1rem;
+    width: 90%;
+    border-radius: 2rem;
+    filter: brightness(100%);
+  }
+
+}

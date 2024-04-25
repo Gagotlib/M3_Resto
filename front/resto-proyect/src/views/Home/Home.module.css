@@ -1,0 +1,99 @@
+.bodyhome {
+  margin: 0rem;
+  margin-bottom: 3rem;
+  a {
+    text-decoration: none;
+    color: rgba(194, 123, 16, 1);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid rgba(194, 123, 16, 1);
+
+    &:hover {
+      background-color: rgba(194, 123, 16, 1);
+      color: white;
+    }
+  }
+
+  ul {
+    padding-left: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+.intro {
+  background: url(../../assets/imgs/exterior.jpeg);
+  width: 100%;
+  position: relative;
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+  height: 100vh !important;
+  min-height: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  margin: 0;
+  padding-top: 1rem;
+  color: lightgray;
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: oblique;
+}
+.title {
+  margin: 0;
+  padding-top: 1rem;
+  color: lightgray;
+  font-size: 4rem;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: lightgray;
+  a {
+    width: 30%;
+  }
+}
+
+.quienessomos {
+  background-image: url(../../assets/imgs/quienessomos.jpeg);
+  background-position: right center;
+  background-color: black;
+  background-repeat: no-repeat;
+  width: 96%;
+  height: auto;
+  color: lightgray !important;
+  padding-left: 2rem;
+  padding-top: 0rem;
+
+  p {
+    width: 40%;
+  }
+}
+.quienessomostitulo {
+  font-family: "Cinzel", serif;
+  color: lightgray;
+  font-size: 2rem;
+}
+
+.maspedidos {
+  background-color: black;
+  color: lightgray;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}

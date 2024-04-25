@@ -1,0 +1,22 @@
+.appointmentCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  justify-content: space-evenly;
+  background-color: black ;
+  color: lightgray;
+  border: 3px solid lightgray;
+  border-radius: 2rem;
+  align-items: center;
+  
+  button {    
+    border-radius: 10px;
+    background-color: red ;
+    color: white;
+    font-size: larger;
+
+
+  }
+}

@@ -1,0 +1,64 @@
+.contactView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactView::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/imgs/fondocontacto.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px) brightness(50%);
+  z-index: -1;
+}
+.contactForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border: 2px solid lightgray;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 60%;
+  font-size: larger;
+
+  button {
+    border: 3px solid green;
+    border-radius: 2rem;
+    font-size: larger;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: green;
+  }
+}
+
+.labelInput {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  label {
+    margin-right: 1rem;
+  }
+  input,
+  select,
+  textarea {
+    border-radius: 0.7rem;
+    size: larger;
+    padding: 0.3rem;
+    font-size: large;
+    width: auto;
+  }
+}

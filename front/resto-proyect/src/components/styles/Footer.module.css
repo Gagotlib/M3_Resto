@@ -1,0 +1,27 @@
+.footer {
+  /* margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: rgb(189, 184, 184);
+  height: 2rem; */
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items:center;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: rgb(189, 184, 184);
+  text-align: right;
+  height: auto;
+  
+  img {
+    width: 2rem;
+    
+  }
+  
+}

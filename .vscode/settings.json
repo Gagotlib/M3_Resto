@@ -1,0 +1,13 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "proyectom3 connection",
+      "database": "proyectom3",
+      "username": "postgres"
+    }
+  ]
+}

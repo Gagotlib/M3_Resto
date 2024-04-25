@@ -1,0 +1,33 @@
+.nuestracartaview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.nuestracartaview::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/imgs/cartafonfo.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(50%) blur(5px);
+  z-index: -1;
+}
+
+div {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
