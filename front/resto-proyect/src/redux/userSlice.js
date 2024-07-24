@@ -10,7 +10,7 @@ export const userSlice = createSlice({
   name: "user",
   // estado inicial
   initialState,
-  //logica
+  //lógica
   reducers: {
     setUser: (state, action) => {
       // console.log(action)
